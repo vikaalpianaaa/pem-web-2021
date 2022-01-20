@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<title>TA WABSITE</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+.-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.-wide {font-family: "Montserrat", sans-serif;}
+</style>
+<body class="-content" style="max-width:1250px">
+
+<!-- Sidebar/menu -->
+<nav class="-sidebar -bar-block -white -collapse -top" style="z-index:3;width:260px" id="mySidebar">
+    <div class="-container -display-container -padding-16">
+        <i onclick="_close()" class="fa fa-remove -hide-large -button -display-topright"></i>
+        <h3 class="-wide"><b>COLLECTION MENS </b></h3>
+        <div class="-padding-64 -large -text-grey" style="font-weight:bold">
+          <a href="#" class="-bar-item -button">Streerwear</a>
+          <a href="#" class="-bar-item -button">Hoode</a>
+          <a onclick="myAccFunc()" href="javascript:void(0)" class="-button -block -white -left-align" id="myBtn">
+            daily <i class="fa fa-caret-down"></i>
+          </a>
+          <div id="demoAcc" class="-bar-block -hide -padding-large -medium">
+            <a href="#" class="-bar-item-button-light-grey"><i class="fa fa-caret-right -margin-right"></i></a>
+            <a href="#" class="-bar-item-button">watch</a>
+            <a href="#" class="-bar-item-button">sneakers</a>
+            <a href="#" class="-bar-item-button">Setelan</a>
+          </div>
+          <a href="#" class="-bar-item -button">Jas</a>
+          <a href="#" class="-bar-item -button">wallet</a>
+        </div>
+      
+  <a href="#footer" class="-bar-item -button -padding">Contact</a> 
+  <a href="javascript:void(0)" class="-bar-item -button -padding" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a> 
+  <a href="#footer"  class="-bar-item -button -padding">Subscribe</a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="-bar -top -hide-large -black -xlarge">
+  <div class="-bar-item -padding-24 -wide">VIKSTORE MEN'S COLLECTION</div>
+</div>
+
+  <a href="javascript:void(0)" class="-bar-item -button -padding-24 -right" onclick="_open()"><i class="fa fa-bars"></i></a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="-overlay -hide-large" onclick="_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="-main" style="margin-left:250px">
+  
+
+  <!-- Push down content on small screens -->
+  <div class="-hide-large" style="margin-top:80px"></div>
+  
+  <!-- Top header -->
+  <header class="-container -xlarge">
+    <p class="-left">VIKSTORE MEN'S COLLECTION</p>
+    <p class="-right">
+      <i class="fa fa-shopping-cart -margin-right"></i>
+      <i class="fa fa-search"></i>
+    </p>
+  </header>
+
+  <!-- Image header -->
+  <div class="-display-container -container">
+    <img src="Image/casual fashion.jpg" alt="fashion" style="width:101%">
+    <div class="-display-topleft -text-white" style="padding:24px 45px">
+      <h1 class="-jumbo -hide-small"><font color="black"><b>NEW ARRIVALS</b></font></h1>
+      <h1 class="-hide-large -hide-medium"><font color="black"><b>NEW ARRIVALS</b></font></h1>
+      <h1 class="-hide-small">
+        <mark style="background: #fff;">
+      <p><a href="#fashion" class="-button -black -padding-large -large">SHOP NOW</a></p>
+    </div>
+  </div>
+
+  <div class="-container -text-grey" id="fashion">
+    <p>8 items</p>
+  </div>
+
+  <!-- Product grid -->
+  <div class="-row">
+    <div class="-col l3 s6">
+      <div class="-container">
+        <img src="Image/streerwear.jpg" style="width:106%">
+        <p>Streerwear<br><b>Rp 110.000</b></p>
+      </div>
+      <div class="-container">
+        <img src="Image/boy clothes1.jpg" style="width:106%">
+        <p>Boy Jas<br><b>Rp 250.000</b></p>
+      </div>
+    </div>
+
+    <div class="-col l3 s6">
+      <div class="-container">
+        <div class="-display-container">
+          <img src="Image/louis Vuitton.jpg" style="width:106%">
+          <span class="-tag -display-topleft">New</span>
+          <div class="-display-middle -display-hover">
+            <button class="-button -black">Buy now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>Louis Vuitton<br><b>Rp 150.000 </b></p>
+      </div>
+      <div class="-container">
+        <img src="Image/drawstring hooded.jpg" style="width:106%">
+        <p>Hodee<br><b>Rp 95.000</b></p>
+      </div>
+    </div>
+
+    <div class="-col l3 s6">
+      <div class="-container">
+        <img src="Image/cargo pants.jpg" style="width:106%">
+        <p>Cargo Pants<br><b>Rp 170.000</b></p>
+      </div>
+      <div class="-container">
+        <div class="-display-container">
+          <img src="Image/slouchy winter.jpg" style="width:106%">
+          <span class="-tag -display-topleft">Sale</span>
+          <div class="-display-middle -display-hover">
+            <button class="-button -black">Buy now<i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <p>Slouchy Winter<br><b class="-text-black">Rp 70.000</b></p>
+      </div>
+    </div>
+
+    <div class="-col l3 s6">
+      <div class="-container">
+        <img src="Image/shoes.jpg" style="width:106%">
+        <p>Shoes Vik's <br><b>Rp 170.000</b></p>
+      </div>
+      <div class="-container">
+        <img src="Image/shein.jpg" style="width:106%">
+        <p>Setelan Shein<br><b>Rp 165.000</b></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Subscribe section -->
+  <div class="-container -black -padding-32">
+    <h1>Subscribe</h1>
+    <p>To get special offers and Start Brand:</p>
+    <p><input class="-input -border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+    <button type="button" class="-button -red -margin-bottom">Subscribe</button>
+  </div>
+  
+  <!-- Footer -->
+  <footer class="-padding-64 -light-grey -small -center" id="footer">
+    <div class="-row-padding">
+      <div class="-col s4">
+        <h4>Contact</h4>
+        <p>Questions? Go ahead.</p>
+        <form action="/action_page.php" target="_blank">
+          <p><input class="-input -border" type="text" placeholder="Name" name="Name" required></p>
+          <p><input class="-input -border" type="text" placeholder="Email" name="Email" required></p>
+          <p><input class="-input -border" type="text" placeholder="Subject" name="Subject" required></p>
+          <p><input class="-input -border" type="text" placeholder="Message" name="Message" required></p>
+          <button type="submit" class="-button -block -black">Send</button>
+        </form>
+      </div>
+
+      <div class="-col s4">
+        <h4>About</h4>
+        <p><a href="#">About us</a></p>
+        <p><a href="#">Support</a></p>
+        <p><a href="#">Viks store</a></p>
+        <p><a href="#">Payment</a></p>
+        <p><a href="#">Gift card</a></p>
+        <p><a href="#">Return</a></p>
+        <p><a href="#">Help</a></p>
+      </div>
+
+      <div class="-col s4 -justify">
+        <h4>Store</h4>
+        <p><i class="fa fa-fw fa-map-marker"></i> Viksstore, Grobogan Jawa Tengah</p>
+        <p><i class="fa fa-fw fa-phone"></i> 0044123123</p>
+        <p><i class="fa fa-fw fa-envelope"></i> Viksstore121@gmail.com</p>
+        <h4>We accept</h4>
+        <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+        <br>
+        <i class="fa fa-facebook-official -hover-opacity -large"></i>
+        <i class="fa fa-instagram -hover-opacity -large"></i>
+        <i class="fa fa-snapchat -hover-opacity -large"></i>
+        <i class="fa fa-pinterest-p -hover-opacity -large"></i>
+        <i class="fa fa-twitter -hover-opacity -large"></i>
+        <i class="fa fa-linkedin -hover-opacity -large"></i>
+      </div>
+    </div>
+  </footer>
+
+  <div class="-black -center -padding-24">@Vikaalpiana_store</div>
+
+  <!-- End page content -->
+</div>
+
+<!-- Newsletter Modal -->
+<div id="newsletter" class="-modal">
+  <div class="-modal-content -animate-zoom" style="padding:32px">
+    <div class="-container -white -center">
+      <i onclick="document.getElementById('newsletter').style.display='none'" class="fa fa-remove -right -button -transparent -xxlarge"></i>
+      <h2 class="-wide">NEWSLETTER</h2>
+      <p>Join our mailing list to receive updates on new arrivals, access to exclusive deals and special offers.</p>
+      <p><input class="-input -border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="-button -padding-large -red -margin-bottom" onclick="document.getElementById('newsletter').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js" ></script>
+
+</body>
+</html>
